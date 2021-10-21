@@ -1,0 +1,8 @@
+this is a sample pipleine
+pipeline {
+
+   stages {
+     script( build) {
+       mvn cleaan install package
+       }
+       }
